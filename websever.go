@@ -5,7 +5,7 @@ import ("fmt"
 
 func main() {
 
-    
+
 
     http.HandleFunc("/earth", handler2)
 
@@ -24,5 +24,7 @@ func handler(w http.ResponseWriter, r *http.Request){
 
 func handler2(w http.ResponseWriter, r *http.Request){
             fmt.Fprintf(w, "Hello earth")
+
+            //hi
 
 }
